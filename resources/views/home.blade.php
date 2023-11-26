@@ -1,0 +1,12 @@
+@extends('Layout.app')
+@section('content')
+    @include('Component.hero')
+    @include('Component.about')
+    @include('Component.facts')
+    @include('Component.skills')
+    @include('Component.resume')
+    @include('Component.portfolio')
+    @include('Component.services')
+    @include('Component.testimonials')
+    @include('Component.contact')
+@endsection
